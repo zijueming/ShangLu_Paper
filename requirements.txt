@@ -1,0 +1,17 @@
+# Python 依赖包列表（服务器部署用）
+# 商陆学术助手 - 决明子2025
+#
+# 推荐 Python 版本：3.10+
+# 安装：python -m pip install -r requirements.txt
+
+# 必需第三方依赖（本项目其余功能主要基于 Python 标准库实现）
+# - requests：HTTP 客户端，用于调用外部 API（DeepSeek / MinerU / Grsai/Nano Banana）
+# - bcrypt：用户密码哈希存储
+requests>=2.31.0,<3
+bcrypt>=4.0.1,<5
+
+# 主要使用的标准库（无需安装）
+# - http.server：Web 服务器（本地 UI）
+# - sqlite3：本地数据库（用户/会话/邀请码等）
+# - json, pathlib, re, urllib.parse：数据处理与路由
+# - threading：后台任务

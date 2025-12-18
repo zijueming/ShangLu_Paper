@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+output/
+
+*.zip
+*.pdf
+
+*.cache.json
+
+config_local.py
+.env
+.env.*
