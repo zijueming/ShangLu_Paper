@@ -53,8 +53,7 @@
 
 1. **克隆仓库**
 ```bash
-git clone <repository-url>
-cd Demo2
+git clone https://github.com/zijueming/ShangLu_Paper
 ```
 
 2. **创建虚拟环境**
